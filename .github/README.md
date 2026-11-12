@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-wellarchitected`](https://www.npmjs.com/package/@aws-sdk/client-wellarchitected/v/3.1166.0).
+[`@aws-sdk/client-wellarchitected`](https://www.npmjs.com/package/@aws-sdk/client-wellarchitected/v/3.1167.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-wellarchitected - [https://cloud-sdk-builds.github.io/?sdk=client-wellarchitected](https://cloud-sdk-builds.github.io/?sdk=client-wellarchitected)
-- @aws-sdk/client-wellarchitected v3.1166.0 - [https://cloud-sdk-builds.github.io/?sdk=client-wellarchitected&version=3.1166.0](https://cloud-sdk-builds.github.io/?sdk=client-wellarchitected&version=3.1166.0)
+- @aws-sdk/client-wellarchitected v3.1167.0 - [https://cloud-sdk-builds.github.io/?sdk=client-wellarchitected&version=3.1167.0](https://cloud-sdk-builds.github.io/?sdk=client-wellarchitected&version=3.1167.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wellarchitected@3.1166.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wellarchitected@3.1167.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-CSkhKW438RR14l4HXEsZuHCmuBdH+p/8FPU6VZXlBFz2VZDoyKM2thb905U6cq4t
+sha384-W2R9FLiWuUt1gno5tJvDpVeRD2cDDJ5I1c65QjgIU8pFoWdvyLEcCJp4aOYQTMm+
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-wellarchitected": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wellarchitected@3.1166.0/index.min.mjs"
+            "@aws-sdk/client-wellarchitected": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wellarchitected@3.1167.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wellarchitected@3.1166.0/index.min.mjs": "sha384-CSkhKW438RR14l4HXEsZuHCmuBdH+p/8FPU6VZXlBFz2VZDoyKM2thb905U6cq4t"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wellarchitected@3.1167.0/index.min.mjs": "sha384-W2R9FLiWuUt1gno5tJvDpVeRD2cDDJ5I1c65QjgIU8pFoWdvyLEcCJp4aOYQTMm+"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-wellarchitected": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wellarchitected@3.1166.0/index.min.mjs"
+                        "@aws-sdk/client-wellarchitected": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wellarchitected@3.1167.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wellarchitected@3.1166.0/index.min.mjs": "sha384-CSkhKW438RR14l4HXEsZuHCmuBdH+p/8FPU6VZXlBFz2VZDoyKM2thb905U6cq4t"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-wellarchitected@3.1167.0/index.min.mjs": "sha384-W2R9FLiWuUt1gno5tJvDpVeRD2cDDJ5I1c65QjgIU8pFoWdvyLEcCJp4aOYQTMm+"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1166.0`)
+* Always pin to a specific version (`@3.1167.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-wellarchitected/blob/refs/tags/3.1166.0/LICENSE
+https://github.com/cloud-sdk-builds/client-wellarchitected/blob/refs/tags/3.1167.0/LICENSE
 ```
 
 ---
